@@ -1,0 +1,3 @@
+# Installation requirements (see also constraints.txt).
+
+coloredlogs >= 5.1
