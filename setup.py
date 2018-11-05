@@ -42,7 +42,7 @@ setup(name="py-backup",
       license='MIT',
       packages=find_packages(),
       entry_points=dict(console_scripts=[
-          'py-backup = pybackup.pybackup:hoge'
+          'py-backup = pybackup.pybackup:main'
       ]),
       install_requires=get_requirements('requirements.txt'),
       test_suite='',

@@ -70,7 +70,7 @@ def rotate_backup(args):
             os.remove(os.path.join(_root,_file))
 
 
-def hoge():
+def main():
     args = args_parse()
 
     # backup.
